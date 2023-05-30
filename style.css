@@ -1,7 +1,7 @@
 /* ADD CUSTOM FONTS: */
-body {
+/* body {
   margin: 0;
-}
+} */
 @font-face {
   font-family: "roboto";
   src: url("fonts/roboto-condensed-webfont.woff2") format("woff2"),
@@ -25,8 +25,24 @@ body {
   font-weight: normal;
   font-style: normal;
 }
+
 .para {
   font-size: 19px;
   font-weight: 900;
   font-family: "modern-age";
+}
+
+.fieldset {
+  display: flex;
+  flex-flow: row wrap;
+  max-width: 80%;
+}
+.form-row {
+  display: flex;
+  flex-flow: column;
+  box-sizing: border-box;
+}
+
+.form-row input {
+  width: 45%;
 }

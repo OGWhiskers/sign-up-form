@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
-    <title>Document</title>
+    <title>Gym</title>
   </head>
     <div class="header-container">
         <p class="para">
@@ -15,38 +15,45 @@
           <p class="para">You know you want to.</p>
     </div>
 
-    <form action="" method="get" class="form-container">
-        <h1>Let's do this!</h1>
+    <form action="" method="get" class="form-container" id="form">
 
-        <div class="form-row">
-            <label for="first_name">First Name: </label>
-            <input type="text" name="first_name" id="first_name">
-        </div>
+        <fieldset class="fieldset">
+            <legend>Let's do this!</legend>
 
-        <div class="form-row">
-            <label for="last_name">Last Name: </label>
-            <input type="text" name="last_name" id="last_name">
-        </div>
-
-        <div class="form-row">
-            <label for="email">E-mail: </label>
-            <input type="email" name="email" id="email">
-        </div>
-
-        <div class="form-row">
-            <label for="phone_number">Phone Number: </label>
-            <input type="tel" name="phone_number" id="phone_number">
-        </div>
+            <div class="form-row">
+                <label for="first_name">First Name: </label>
+                <input type="text" name="first_name" id="first_name">
+            </div>
+    
+            <div class="form-row">
+                <label for="last_name">Last Name: </label>
+                <input type="text" name="last_name" id="last_name">
+            </div>
+    
+            <div class="form-row">
+                <label for="email">E-mail: </label>
+                <input type="email" name="email" id="email">
+            </div>
+    
+            <div class="form-row">
+                <label for="phone_number">Phone Number: </label>
+                <input type="tel" name="phone_number" id="phone_number">
+            </div>
+            
+            <div class="form-row">
+                <label for="password">Password: </label>
+                <input type="password" name="password" id="password">
+            </div>
+    
+            <div class="form-row">
+                <label for="confirm-password">Confirm Password: </label>
+                <input type="password" name="confirm-password" id="confirm-password">
+            </div>
+        </fieldset>
         
-        <div class="form-row">
-            <label for="password">Password: </label>
-            <input type="password" name="password" id="password">
-        </div>
 
-        <div class="form-row">
-            <label for="confirm-password">Confirm Password: </label>
-            <input type="password" name="confirm-password" id="confirm-password">
-        </div>
+        <button type="submit">Create Account</button>
+        <p>Already have an account? <a href="#form">Log in</a></p>
     </form>
     <!-- UNSPLASH PIC CREDIT:
     Photo by <a href="https://unsplash.com/@samuelgirven?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Samuel Girven</a> on <a href="https://unsplash.com/photos/VJ2s0c20qCo?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a> background
