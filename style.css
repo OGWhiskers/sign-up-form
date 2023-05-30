@@ -1,0 +1,32 @@
+/* ADD CUSTOM FONTS: */
+body {
+  margin: 0;
+}
+@font-face {
+  font-family: "roboto";
+  src: url("fonts/roboto-condensed-webfont.woff2") format("woff2"),
+    url("fonts/roboto-condensed-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "dunkin";
+  src: url("fonts/dunkin_bold-webfont.woff2") format("woff2"),
+    url("fonts/dunkin_bold-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "modern-age";
+  src: url("fonts/madeinfinity_personaluse-thin-webfont.woff2") format("woff2"),
+    url("fonts/madeinfinity_personaluse-thin-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+.para {
+  font-size: 19px;
+  font-weight: 900;
+  font-family: "modern-age";
+}
