@@ -126,3 +126,17 @@ a[href="#form"] {
   color: #132028;
   font-weight: 900;
 }
+
+input[type="password"]:invalid {
+  border: 2px solid #d77b7b;
+}
+
+.pass-msg {
+  font-size: 0.8rem;
+  color: #d77b7b;
+  font-family: "infinity";
+}
+
+.hidden {
+  display: none;
+}
