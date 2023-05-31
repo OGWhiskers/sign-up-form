@@ -7,60 +7,74 @@
     <link rel="stylesheet" href="style.css" />
     <title>Gym</title>
   </head>
-    <div class="header-container">
-        <p class="para">
-            This is not a real online service! You know you need something like this
-            to help you realize your deepest dreams. Sign up now to get started.
-          </p>
-          <p class="para">You know you want to.</p>
-    </div>
-
-    <form action="" method="get" class="form-container" id="form">
-
-        <fieldset class="fieldset">
-            <legend>Let's do this!</legend>
-
-            <div class="container">
-                <div class="first-last">
-                    <div class="form-row">
-                        <label for="first_name">First Name: </label>
-                        <input type="text" name="first_name" id="first_name">
-                    </div>
-            
-                    <div class="form-row">
-                        <label for="last_name">Last Name: </label>
-                        <input type="text" name="last_name" id="last_name">
-                    </div>
-                </div>
-                <div class="email-number">
-                    <div class="form-row">
-                        <label for="email">E-mail: </label>
-                        <input type="email" name="email" id="email">
-                    </div>
-            
-                    <div class="form-row">
-                        <label for="phone_number">Phone Number: </label>
-                        <input type="tel" name="phone_number" id="phone_number">
-                    </div>
-                </div>
-                <div class="password-confirm">
-                    <div class="form-row">
-                        <label for="password">Password: </label>
-                        <input type="password" name="password" id="password" class="pass" required>
-                        <span class="pass-msg ">*Password does not macth</span>
-                    </div>
-            
-                    <div class="form-row">
-                        <label for="confirm-password">Confirm Password: </label>
-                        <input type="password" name="confirm-password" id="confirm-password" required>
-                    </div>
-                </div>
+  <main>
+    <div class="main">
+        <div class="left">
+            <div>
+                <img src="/img/samuel-girven-VJ2s0c20qCo-unsplash.jpg" alt="background image" srcset="">
             </div>
-        </fieldset>
+            <div></div>
+            <div></div>
+        </div>
+        <div class="right">
+            <div class="header-container">
+                <p class="para">
+                    This is not a real online service! You know you need something like this
+                    to help you realize your deepest dreams. Sign up now to get started.
+                  </p>
+                  <p class="para">You know you want to.</p>
+            </div>
         
-        <button class="btn" type="submit">Create Account</button>
-        <p class="log-in">Already have an account? <a href="#form">Log in</a></p>
-    </form>
+            <form action="" method="get" class="form-container" id="form">
+        
+                <fieldset class="fieldset">
+                    <legend>Let's do this!</legend>
+        
+                    <div class="container">
+                        <div class="first-last">
+                            <div class="form-row">
+                                <label for="first_name">First Name: </label>
+                                <input type="text" name="first_name" id="first_name">
+                            </div>
+                    
+                            <div class="form-row">
+                                <label for="last_name">Last Name: </label>
+                                <input type="text" name="last_name" id="last_name">
+                            </div>
+                        </div>
+                        <div class="email-number">
+                            <div class="form-row">
+                                <label for="email">E-mail: </label>
+                                <input type="email" name="email" id="email">
+                            </div>
+                    
+                            <div class="form-row">
+                                <label for="phone_number">Phone Number: </label>
+                                <input type="tel" name="phone_number" id="phone_number" minlength="8" maxlength="15">
+                            </div>
+                        </div>
+                        <div class="password-confirm">
+                            <div class="form-row">
+                                <label for="password">Password: </label>
+                                <input type="password" name="password" id="password" class="pass" required>
+                                <span class="pass-msg ">*Password does not macth</span>
+                            </div>
+                    
+                            <div class="form-row">
+                                <label for="confirm-password">Confirm Password: </label>
+                                <input type="password" name="confirm-password" id="confirm-password" required>
+                            </div>
+                        </div>
+                    </div>
+                </fieldset>
+                
+                <button class="btn" type="submit">Create Account</button>
+                <p class="log-in">Already have an account? <a href="#form">Log in</a></p>
+            </form>
+        </div>
+    </div>
+  </main>
+    
     <!-- UNSPLASH PIC CREDIT:
     Photo by <a href="https://unsplash.com/@samuelgirven?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Samuel Girven</a> on <a href="https://unsplash.com/photos/VJ2s0c20qCo?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a> background
 

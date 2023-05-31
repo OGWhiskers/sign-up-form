@@ -3,6 +3,12 @@ body {
   margin: 0;
   padding: 0;
   background-color: #f9fafb;
+  overflow-x: hidden;
+}
+
+img {
+  width: 35vw;
+  height: 100vh;
 }
 @font-face {
   font-family: "roboto";
@@ -146,4 +152,8 @@ input[type="password"]:invalid {
   background-color: #f7f7f7;
 
   transition: 0.3s ease-in;
+}
+
+.main {
+  display: flex;
 }
