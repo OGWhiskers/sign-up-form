@@ -6,9 +6,14 @@ body {
   overflow-x: hidden;
 }
 
-img {
+.left-img {
   width: 35vw;
   height: 100vh;
+}
+@font-face {
+  font-family: "norse";
+  src: url("/fonts/norse-bold-webfont.woff2") format("woff2"),
+    url("/fonts/norse-bold-webfont.woff") format("woff");
 }
 @font-face {
   font-family: "roboto";
@@ -47,6 +52,9 @@ img {
   font-family: "roboto";
   /* Might have to move: */
   margin-left: 25px;
+}
+.header-container {
+  margin-top: 150px;
 }
 
 .form-container {
@@ -156,4 +164,36 @@ input[type="password"]:invalid {
 
 .main {
   display: flex;
+}
+
+.left {
+  position: relative;
+}
+.transparent {
+  width: 35vw;
+  height: 130px;
+
+  position: absolute;
+  top: 200px;
+  background-color: rgba(12, 27, 34, 255);
+  opacity: 0.7;
+}
+.logo {
+  position: absolute;
+  /* background-color: red; */
+  top: 200px;
+  left: 20px;
+
+  width: 12vw;
+  height: 130px;
+}
+
+.norse {
+  font-family: "norse";
+  position: absolute;
+
+  color: #e0e0e1;
+  font-size: 2.2rem;
+  top: 240px;
+  left: 240px;
 }
