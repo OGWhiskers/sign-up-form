@@ -1,7 +1,9 @@
 /* ADD CUSTOM FONTS: */
-/* body {
+body {
   margin: 0;
-} */
+  padding: 0;
+  background-color: #f7f7f7;
+}
 @font-face {
   font-family: "roboto";
   src: url("fonts/roboto-condensed-webfont.woff2") format("woff2"),
@@ -32,17 +34,34 @@
   font-family: "modern-age";
 }
 
-.fieldset {
+.container {
   display: flex;
-  flex-flow: row wrap;
-  max-width: 80%;
+  flex-direction: column;
 }
-.form-row {
+.fieldset {
+  border: none;
+  margin-bottom: 8px;
+  margin-left: 20px;
+}
+.first-last,
+.email-number,
+.password-confirm {
   display: flex;
-  flex-flow: column;
-  box-sizing: border-box;
+  flex-direction: row;
+  gap: 40px;
 }
 
+.form-row {
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  margin: 8px 0;
+}
 .form-row input {
-  width: 45%;
+  width: 220px;
+  height: 18px;
+}
+.form-row label {
+  font-size: 1.1em;
+  width: 200px;
 }
