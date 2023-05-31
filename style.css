@@ -27,11 +27,18 @@ body {
   font-weight: normal;
   font-style: normal;
 }
+@font-face {
+  font-family: "infinity";
+  src: url("fonts/madeinfinity_personaluse-thin-webfont.woff2") format("woff2"),
+    url("fonts/madeinfinity_personaluse-thin-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
 
 .para {
   font-size: 19px;
   font-weight: 900;
-  font-family: "modern-age";
+  font-family: "roboto";
 }
 
 .container {
@@ -42,6 +49,10 @@ body {
   border: none;
   margin-bottom: 8px;
   margin-left: 20px;
+}
+.fieldset legend {
+  font-family: "modern-age";
+  font-size: 1.3rem;
 }
 .first-last,
 .email-number,
@@ -64,4 +75,11 @@ body {
 .form-row label {
   font-size: 1.1em;
   width: 200px;
+
+  font-family: "modern-age";
+}
+
+.btn,
+.log-in {
+  font-family: "infinity";
 }
