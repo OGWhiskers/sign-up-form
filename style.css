@@ -140,3 +140,10 @@ input[type="password"]:invalid {
 .hidden {
   display: none;
 }
+
+.btn:hover {
+  color: #132028;
+  background-color: #f7f7f7;
+
+  transition: 0.3s ease-in;
+}
