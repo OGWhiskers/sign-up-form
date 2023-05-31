@@ -2,7 +2,7 @@
 body {
   margin: 0;
   padding: 0;
-  background-color: #f7f7f7;
+  background-color: #f9fafb;
 }
 @font-face {
   font-family: "roboto";
@@ -39,6 +39,8 @@ body {
   font-size: 19px;
   font-weight: 900;
   font-family: "roboto";
+  /* Might have to move: */
+  margin-left: 25px;
 }
 
 .form-container {
@@ -49,14 +51,25 @@ body {
   flex-direction: column;
 }
 .fieldset {
-  border: none;
-  margin-bottom: 8px;
+  border: 1px #ffffff;
+  border-radius: 8px;
+  box-shadow: -5px 10px 10px 1px #e0e0e1;
+  background-color: #ffffff;
+  margin-bottom: 18px;
   margin-left: 20px;
 }
+.fieldset {
+  position: relative;
+}
 .fieldset legend {
+  position: absolute;
+  top: 20px;
   font-family: "modern-age";
   font-size: 1.3rem;
   font-weight: 800;
+}
+.first-last {
+  margin-top: 65px;
 }
 .first-last,
 .email-number,
@@ -75,6 +88,14 @@ body {
 .form-row input {
   width: 220px;
   height: 18px;
+
+  border: 2px solid #e6e7eb;
+  border-radius: 4px;
+}
+
+input:focus {
+  outline: none;
+  border: 2px solid #809be5;
 }
 .form-row label {
   font-size: 1.1em;
@@ -92,6 +113,7 @@ body {
 .btn {
   width: 150px;
   height: 45px;
+  cursor: pointer;
 
   border-radius: 5px;
 
